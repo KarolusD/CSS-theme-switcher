@@ -23,4 +23,4 @@ themer.removeTheme()
 themer.destroyTheme()
 ```
 
-### Happy theming! 👋
+### Happy theming all! 👋
