@@ -1,0 +1,29 @@
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+.light-theme {
+  --text-color: var(--black-color);
+  --bg-color: var(--white-color);
+}
+
+.dark-theme {
+  --text-color: var(--white-color);
+  --bg-color: var(--black-color);
+}
+
+.theme-icon {
+  display: none;
+  pointer-events: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
+  transition: background-color 500ms ease, color 1s ease;
+}

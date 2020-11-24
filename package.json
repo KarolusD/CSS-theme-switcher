@@ -1,0 +1,11 @@
+{
+  "name": "css-theme-switcher",
+  "version": "1.0.0",
+  "description": "Simple CSS theme switcher",
+  "main": "ThemeSwitcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karol Podżerek",
+  "license": "ISC"
+}
